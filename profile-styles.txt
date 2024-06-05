@@ -29,6 +29,9 @@ h6{
 h1{
 	font-size: 60px;
 	text-align:center;
+	color:black;
+	margin-top:30vh;
+
 }
 #nav-bar{
 	display: flex;
@@ -58,7 +61,7 @@ h1{
 	text-decoration: underline;
 }
 
-section{
+section {
 	min-height: 100vh;
 	padding: 70px 0;
 	background-color:var(--secondary);
@@ -72,9 +75,10 @@ section{
 	flex-direction: column;
 }
 
-section h1{
-	margin-top: 30vh;
-	color: var(--neutral-focus);
+section h2{
+	margin-top:30vh;
+	color: white;
+	font-size:50px;
 }
 
 #welcome-section p{
@@ -91,6 +95,7 @@ section h1{
 	border-bottom: 5px solid var(--neutral);
 	width: fit-content;
 	margin: auto;
+	color:black;
 
 }
 #projects .projects{
@@ -177,20 +182,3 @@ footer{
 		width: 100px;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
